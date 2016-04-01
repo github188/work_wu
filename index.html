@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.css" />
+		<script type="text/javascript" src="angular.js"></script>
+		<script type="text/javascript" src="angular.min.js"></script>
+
+		<script type="text/javascript" src="js/rightContent.js"></script>
+	</head>
+
+	<body ng-app="city" ng-controller="cityCtrl" style="width: 100%; height:100%;">
+		<div class="citySearch">
+			<div class="searchSty">
+				<input placeholder="输入协议编号进行搜索" style="width: 65%; height:33px;font-size: 20px;" />
+				<button type="button" class="btn btn-info btnSelf">搜索</button>
+			</div>
+			<page-flide></page-flide>
+		</div>
+		<div class="tabTitle">
+			<ul class="tabLine">
+				<li class="tabTit">货物信息</li>
+				<li class="tabTit">地址信息</li>
+				<li class="tabTit">车源信息</li>
+				<li class="tabTit">运费信息</li>
+				<li class="tabTit">状态</li>
+			</ul>
+		</div>
+		<div class="tabContain">
+			<tab></tab>
+		</div>
+		<page-flide></page-flide>
+		<div>
+		</div>
+	</body>
+
+</html>
