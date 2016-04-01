@@ -1,0 +1,32 @@
+<extend name="./Application/Member/View/default/layoutIndex.html"/>
+<block name="rightContent">
+    ksdflksdflksdflk
+    <div key-show></div>
+
+</block>
+
+<block name="publicjs">
+
+</block>
+
+
+<block name="publicjstwo">
+
+</block>
+
+
+<block name="otherJs">{//自定义不同js入口}
+    <script>
+        var dist = false;
+        //生产环境
+        if (dist) {
+            document.write('<script src="/Public/resCreate/js/app/dist/app.js"><\/script>');
+        }
+        //开发环境
+        else {
+            document.write('<script src="/Public/resCreate/js/app/dist/appDev.js"><\/script>');
+        }
+    </script>
+</block>
+<block name="othercss">{//自定义index}
+</block>
