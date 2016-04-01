@@ -20,7 +20,6 @@ document.write('<script src="/Public/resCreate/js/app/src/filter/toHtml.cityMap.
 
 /** server  */
 document.write('<script src="/Public/resCreate/js/app/src/server/cityMap.fun.reBindOnce.factory.js"><\/script>');
-document.write('<script src="/Public/resCreate/js/app/src/server/compile.uiBlock.compile.factory.js"><\/script>');
 document.write('<script src="/Public/resCreate/js/app/src/server/tools.cityMap.block.factory.js"><\/script>');
 
 /** tpl  */
